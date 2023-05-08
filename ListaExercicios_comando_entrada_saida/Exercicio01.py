@@ -15,3 +15,9 @@ print("Conversão de moedas")
 franco = float(input("Informe a quantidade de Francos para converter em Dólar canadense"))
 franco = franco * 0.2155
 print("Quantidade Franco Franceses : ", franco)
+
+
+dolar = float(input("Informe a quantidade de Dólar  americano converter Coroas Suecas"))
+dolar =  dolar * 0.2431
+print("Quantidade Dólar: ", dolar )
+
