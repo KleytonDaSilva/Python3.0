@@ -21,3 +21,16 @@ dolar = float(input("Informe a quantidade de Dólar  americano converter Coroas 
 dolar =  dolar * 0.2431
 print("Quantidade Dólar: ", dolar )
 
+dracmas = float(input("Informe a quantidade de Dracmas gregos converter em libra Inglesa"))
+dracmas =  dracmas * 1.595
+print("Quantidade de Libra ", dracmas)
+
+
+dolarDo = float(input("Quantidade de Dólar Canadense para converter em  Dólar "))
+dolarMa = float(input("Quantidade de Dólar Canadense para converter em  Marco Alemão "))
+dolarDo =  dolarDo * 1.06
+dolarMa = dolarMa * 0.432
+
+print(" Quantidade de Dolar Americano " , dolarDo)
+print("Quantidade de Marco Alemão ", dolarMa)
+
