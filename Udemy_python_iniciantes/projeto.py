@@ -17,7 +17,7 @@ class EnumeraArquivos:
         return self.resultado
 
 e = EnumeraArquivos()
-resultado = e.enumerar(r'D:\tools\AutoIt')
+resultado = e.enumerar(r'\home\nksaddam')
 
 for tamanho in sorted(resultado.keys())[-10:]:
     print ('[%d]: %s' % (tamanho, resultado[tamanho]))
