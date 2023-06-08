@@ -1,17 +1,20 @@
 # lendo um arquivo em disco
 import os
 
-arquivo = open('nome_do_arquivo.txt','rb')
-print (arquivo.read())
+arquivo = open('nome_do_arquivo.txt','w')
+arquivo.write("Informarções do arquivo morto")
+arquivo.close()
+
+arquivo = open('nome_do_arquivo.txt', 'r')
 
 
 # gravando um arquivo em disco
 
-arquivo_gravacao = open("nome_do_arquivo", "wb")
+arquivo_gravacao = open("arquivo.txt", "w")
 arquivo_gravacao.write("python é legal")
 arquivo_gravacao.close()
 
-arquivo = open("nome do arquivo.txt", 'rb')
+arquivo = open("arquivo.txt", 'rb')
 print(arquivo.read())
 
 print("---------------------------- entendendo um pouco sobre o modulo")
