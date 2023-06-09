@@ -1,4 +1,4 @@
-# if , else e elif
+# if , else e eliff
 print("------------------- estrutura")
 a =123
 if a == 1:
